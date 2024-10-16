@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color:#ff0000;
+    overflow: hidden;
+    text-align: right;
+    padding: 20px 50px 20px 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.logo {
+    float: left;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+.hero-section {
+    background-color: #ff0000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.hero-content button {
+    padding: 10px 10px;
+    background-color: yellow;
+    border: 2px solid yellow;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.hero-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+
+
+.product img {
+    margin-right: 100px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.social-icons {
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons a {
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+.testimonials {
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.testimonials-hr {
+    border: 2px solid red;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.testimonials h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    display: inline-block;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    color: #000000;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.testimonial h3 {
+    font-size: 22px;
+}
+
+.testimonial p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.rating {
+    color: red;
+    font-size: 30px;
+}
